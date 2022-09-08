@@ -1,15 +1,16 @@
 {
   "name": "d1",
   "version": "1.0.0",
-  "description": "Day 1 - intro to node",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Arthur Di Lascio",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "nodemon": "^2.0.19"
   }
 }
