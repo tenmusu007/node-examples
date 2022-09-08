@@ -1,17 +1,30 @@
-// get all users
-GET http://localhost:3000/getUsers 
+# get all users
+# GET http://localhost:3001/getUsers 
 
-// create new user
-POST http://localhost:3000/createUsers 
-content-type: application/json
+# create new user
 
-{
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
-}
+# POST http://localhost:3001/createUser
+# content-type: application/json
 
-// update user
-PUT http://localhost:3000/updateUser
+# {
+#     "name": "David",
+#     "country": "Czech Republic"
+# }
 
-// delete user
-DELETE http://localhost:3000/deleteUser
+# // update user
+# PUT http://localhost:3001/updateUser
+# content-type: application/json
+
+# {
+#     "id":1,
+#     "country":"Canada"
+# }
+
+
+# // delete user
+# DELETE http://localhost:3001/deleteUser
+# content-type: application/json
+
+# {
+#     "id":1
+# }
