@@ -3,13 +3,13 @@
 
 # create new user
 
-# POST http://localhost:3001/createUser
-# content-type: application/json
+POST http://localhost:3000/users
+content-type: application/json
 
-# {
-#     "name": "David",
-#     "country": "Czech Republic"
-# }
+{
+    "name": "David",
+    "country": "Czech Republic"
+}
 
 # // update user
 # PUT http://localhost:3001/updateUser
@@ -17,6 +17,7 @@
 
 # {
 #     "id":1,
+#     "name":"Arthur",
 #     "country":"Canada"
 # }
 

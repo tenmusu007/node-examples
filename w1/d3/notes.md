@@ -2,11 +2,15 @@
 
 ## Agenda
 
-[ ] Express
-[ ] CRUD / BREAD
-[ ] Middleware
-[ ] Routes
-[ ] EJS Templates
+- [ ] Express
+
+- [ ] CRUD / BREAD
+
+- [ ] Middleware
+
+- [ ] Routes
+
+- [ ] EJS Templates
 
 ## Express
 
