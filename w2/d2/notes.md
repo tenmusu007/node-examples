@@ -58,7 +58,7 @@ app.get("/profile", (req, res) => {
 
 ```js
 app.post("/logout", (req, res) => {
-  res.clearCookies();
+  res.clearCookie("username");
   res.send("You are logged out");
 });
 ```
