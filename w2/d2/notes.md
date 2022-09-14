@@ -2,7 +2,7 @@
 
 ## HTTP is stateless
 
-![](https://c.tenor.com/pyl5ZM7QeLAAAAAC/dory.gif)
+![](https://c.tenor.com/pyl5ZM7QeL  AAAAAC/dory.gif)
 
 The server does not remember anything about the client.
 
