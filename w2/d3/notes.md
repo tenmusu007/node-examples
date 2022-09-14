@@ -10,6 +10,7 @@
 ### Security Issue #1: Passwords
 
 - Password that are stored in plain text is a security breach
+- Check [Plain text offenders](https://plaintextoffenders.com/)
 - What is the solution? **Hashing**
 
 ### Hashing
