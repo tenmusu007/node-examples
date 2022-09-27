@@ -109,4 +109,13 @@ SELECT author, AVG(words) AS avg_words FROM books GROUP BY author HAVING avg_wor
 SELECT name, number_grade, ROUND(fraction_completed * 100) AS percent_completed FROM student_grades;
 
 -- Part 2
+SELECT COUNT(*),
+CASE
+WHEN number_grade > 90 THEN "A"
+WHEN number_grade > 80 THEN "B"
+WHEN number_grade > 70 THEN "C"
+ELSE "F"
+END AS "letter_grade"
+FROM student_grades
+GROUP BY letter_grade;
 ```
