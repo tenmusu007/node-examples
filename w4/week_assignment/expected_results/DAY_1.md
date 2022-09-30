@@ -90,7 +90,18 @@ using class_id = 1
 (17 rows)
 ```
 
-## 05_get_students_enrolled.sql
+## 05_students_without_gmail_and_phone.sql
+
+```text
+      name       | id  |           email           | class_id
+-----------------+-----+---------------------------+----------
+ Javonte Ward    | 178 | jessie_howell@hotmail.com |
+ Jessika Jenkins | 187 | stephanie.koss@kevon.io   |
+ Jerrold Rohan   | 189 | wehner.twila@hotmail.com  |
+(3 rows)
+```
+
+## 06_get_students_enrolled.sql
 
 ```text
         name         | id  | class_id
@@ -140,7 +151,7 @@ using class_id = 1
 (42 rows)
 ```
 
-## 06_get_graduates_without_github.sql
+## 07_get_graduates_without_github.sql
 
 ```text
        name        |             email             |    phone
