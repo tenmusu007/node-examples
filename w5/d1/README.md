@@ -274,6 +274,7 @@ As you can see, we are using the second parameter of the query function to pass 
 - Copy the `tests` folder, `package.json` and `testHelper.js` files from the `node_examples` repository. [Link](https://github.com/adlascio/node-examples)
 - Paste into your `week_assignment` repository.
 - In the terminal, run `npm install` to install the dependencies.
+- Add `node_modules` to `.gitignore` file.
 - Run `npm test` to run the tests.
 - Fix the issues found by the tests.
 - Work together to fix the issues.
