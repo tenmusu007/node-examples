@@ -9,12 +9,9 @@ const queryDb = async (filepath) => {
     password: "",
     port: 5432,
   });
-  //   const res = await pool.query(sql.file(`queries/${filename}`));
   const queryFile = fs.readFileSync(filepath, "utf8");
-  //   console.log("query", queryFile);
   const res = await pool.query(queryFile);
   pool.end();
-  //   console.log("res", res);
   return res;
 };
 
