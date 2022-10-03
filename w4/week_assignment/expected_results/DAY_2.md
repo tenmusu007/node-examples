@@ -153,7 +153,7 @@
 ## 01_get_total_assignments_per_day.sql
 
 ```text
- day | total_submissions
+ day | total_assignments
 -----+-------------------
    1 |                11
    2 |                 9
@@ -182,7 +182,7 @@
 ## 02_get_total_assignments_per_day_greater_10.sql
 
 ```text
- day | total_submissions
+ day | total_assignments
 -----+-------------------
    1 |                11
    9 |                12
