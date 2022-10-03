@@ -266,7 +266,7 @@
 (4 rows)
 ```
 
-## 01_get_total_assistance_per_instructor.sql
+## 01_get_total_assistance_requests_instructor.sql
 
 ```text
  total_assistances | instructor_name
@@ -302,7 +302,16 @@
 (26299 rows)
 ```
 
-## 04_get_avg_duration_assistance_per_class.sql
+## 04_get_avg_assistance_request_duration.sql
+
+```text
+ avg_assistance_request_duration
+---------------------------------
+ 00:14:21.556903
+(1 row)
+```
+
+## 05_get_avg_duration_assistance_per_class.sql
 
 ```text
  class | avg_duration_assistance
@@ -321,7 +330,7 @@
 (11 rows)
 ```
 
-## 05_get_class_longest_assistances.sql
+## 06_get_class_longest_assistances.sql
 
 ```text
  class | avg_duration_assistance
@@ -330,7 +339,7 @@
 (1 row)
 ```
 
-## 06_get_avg_request_wait_time.sql
+## 07_get_avg_request_wait_time.sql
 
 ```text
  average_wait_time
@@ -339,7 +348,7 @@
 (1 row)
 ```
 
-## 07_get_total_assistence_requests_class.sql
+## 08_get_total_assistence_requests_class.sql
 
 ```text
  class | total_duration
@@ -358,7 +367,7 @@
 (11 rows)
 ```
 
-## 08_get_avg_total_assistence_requests_class.sql
+## 09_get_avg_total_assistence_requests_class.sql
 
 ```text
  avg_total_duration
@@ -367,7 +376,7 @@
 (1 row)
 ```
 
-## 09_get_total_assistance_requests_assignment.sql
+## 10_get_total_assistance_requests_assignment.sql
 
 ```text
  id  | day | chapter |                name                | total_assistances
@@ -385,7 +394,7 @@
 (424 rows)
 ```
 
-## 10_get_total_assignment_duration_day.sql
+## 11_get_total_assignment_duration_day.sql
 
 ```text
  day | number_of_assignments | total_duration
@@ -403,7 +412,7 @@
   (51 rows)
 ```
 
-## 11_get_instructors_assisted_class.sql
+## 12_get_instructors_assisted_class.sql
 
 ```text
      instructor     | class
@@ -419,7 +428,7 @@
 (8 rows)
 ```
 
-## 12_get_instructors_assisted_class_with_number.sql
+## 13_get_instructors_assisted_class_with_number.sql
 
 ```text
      instructor     | class | total_assistances
