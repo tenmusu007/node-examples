@@ -90,3 +90,4 @@ Let's code!
 - Step 11: Create a button to user logout. It should be in a form with method POST and action to `/logout` endpoint
 
 - Step 12: Create a route `/logout` that expects a POST request and redirect the client to `/login`
+
